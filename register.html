@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="registerForm">
+  <label for="employeeId">员工编号：</label>
+  <input type="text" id="employeeId" name="employeeId" required><br>
+  <label for="employeeName">员工姓名：</label>
+  <input type="text" id="employeeName" name="employeeName" required><br>
+  <label for="employeePhoto">员工照片：</label>
+  <input type="file" id="employeePhoto" name="employeePhoto" accept="image/*" required><br>
+  <button type="submit">注册新员工</button>
+</form>
+<script>
+  document.getElementById("registerForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const employeeId = document.getElementById("employeeId").value;
+    const employeeName = document.getElementById("employeeName").value;
+    const employeePhoto = document.getElementById("employeePhoto").files[0];
+
+    const imageDataUrl = await toBase64(employeePhoto);
+    const response = await fetch("/api/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ employeeId, employeeName, image: imageDataUrl }),
+    });
+
+    const result = await response.json();
+    if (result.status === "success") {
+      alert("新员工已成功注册！");
+    } else {
+      alert("注册失败，请重试。");
+    }
+  });
+
+  function toBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = (error) => reject(error);
+    });
+  }
+</script>
+</body>
+</html>
