@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b66a2e-b2e1-453f-85df-9ae681faf633" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/AddEmployee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/CheckIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/CheckOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/EmployeeList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-native/src/components/AddEmployee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-native/src/components/CheckIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-native/src/components/CheckOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-native/src/components/EmployeeList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-native/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/src/components/AddEmployee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/src/components/CheckIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/src/components/CheckOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/src/components/EmployeeList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/attendance_records.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/employees.sql" afterDir="false" />
-    </list>
+    <list default="true" id="95b66a2e-b2e1-453f-85df-9ae681faf633" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +159,7 @@
       <workItem from="1683618180231" duration="1319000" />
       <workItem from="1683680563345" duration="39000" />
       <workItem from="1683785593984" duration="737000" />
-      <workItem from="1683786368610" duration="3970000" />
+      <workItem from="1683786368610" duration="4058000" />
     </task>
     <servers />
   </component>

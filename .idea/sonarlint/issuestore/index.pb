@@ -11,3 +11,41 @@ index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
 register.html,1\d\1db6aff286d11412de8d4cdf946844a2dcc13e1b
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+J
+sql/attendance_records.sql,1\6\161c082e3ff258472fbf9034750797c9f322b36d
+A
+sql/employees.sql,9\5\9568ad32b1874f4464eff0ef8e12a7bb672200d2
+6
+app.py,1\3\13cce7fd076299c81b4986166f3d822791c9490e
+W
+'react-native/src/components/CheckOut.js,f\9\f9a577772d16768d8b7712867b4909780ea884bc
+Y
+)react-native/src/components/Navigation.js,2\c\2c3f81890a7f50af7371c441cdbb9dc6185585e1
+[
++react-native/src/components/EmployeeList.js,f\5\f5d65fe33965033c5a8cca42a8638acfb2a51341
+V
+&react-native/src/components/CheckIn.js,0\0\005289169f28cc6a6e63b71fda3aebd85e3124d4
+T
+$react/src/components/EmployeeList.js,f\3\f38a6309caa57a3e2f10197eee24098918e1795c
+Z
+*react-native/src/components/AddEmployee.js,0\f\0f8ff8a19d3c812437f12b76e52d2d0803a521f9
+S
+#react/src/components/AddEmployee.js,5\8\5833b7df5d1c91b2958022ab95dc09601911ede7
+O
+react/src/components/CheckIn.js,e\f\ef7844dec18e0bdc0b572685a4a83896815a7184
+P
+ react/src/components/CheckOut.js,4\4\44db03b2519b5d157019472b7274f8ea5c31037c
+W
+'attendance-system-web/package-lock.json,0\1\01a4c5c2ebdeb2790413c071e57d66200434eace
+b
+2attendance-system-web/src/components/Navigation.js,0\f\0fe27f29519ecf5eab3cf5e760942034fe70bc19
+R
+"attendance-system-web/package.json,a\f\afd2400a4c5e9a699d0482293c04515cb733cc0e
+R
+"attendance-system-web/src/index.js,a\3\a3f35d210768c3772bde7751eacddddc1579cf0d
+c
+3attendance-system-web/src/components/AddEmployee.js,6\c\6ce5b451aa96d6513d9ecdc8cd269708935bdde2
+P
+ attendance-system-web/src/App.js,a\3\a3de8bc5c807563d99863ede261d216fd0e77a8b
+R
+"react/src/components/Navigation.js,2\9\29035239aa29f80b8e89af50b6f6f50009c13ae0
