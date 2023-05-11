@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b66a2e-b2e1-453f-85df-9ae681faf633" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/AddEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/CheckIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/CheckOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/EmployeeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-system-web/src/components/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/src/components/AddEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/src/components/CheckIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/src/components/CheckOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/src/components/EmployeeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/src/components/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/src/components/AddEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/src/components/CheckIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/src/components/CheckOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/src/components/EmployeeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/src/components/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/attendance_records.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/employees.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +35,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Flask Main" />
+        <option value="JavaScript File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -52,18 +76,96 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/DS201906079/Downloads/Github/Personal/opencv",
+    "last_opened_file_path": "C:/Users/DS201906079/Downloads/Github/Personal/opencv/attendance-system-web/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DS201906079\Downloads\Github\Personal\opencv\attendance-system-web\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DS201906079\Downloads\Github\Personal\opencv\react-native" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start (1)">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="employee" type="Python.FlaskServer">
+      <module name="employee" />
+      <option name="target" value="$PROJECT_DIR$/employee/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Android" type="ReactNative" factoryName="React Native">
+      <working-dir value="$PROJECT_DIR$/AttendanceSystem" />
+      <node-interpreter value="project" />
+      <react-native value="$PROJECT_DIR$/AttendanceSystem/node_modules/react-native" />
+      <platform value="ANDROID" />
+      <envs />
+      <only-packager />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/attendance-system-web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/AttendanceSystem/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/attendance-system-web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -73,6 +175,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683618178784</updated>
       <workItem from="1683618180231" duration="1319000" />
+      <workItem from="1683680563345" duration="39000" />
+      <workItem from="1683785593984" duration="737000" />
+      <workItem from="1683786368610" duration="3970000" />
     </task>
     <servers />
   </component>
@@ -81,5 +186,8 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/opencv$employee.coverage" NAME="employee 覆盖结果" MODIFIED="1683786796244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

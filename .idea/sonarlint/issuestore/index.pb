@@ -7,8 +7,6 @@ scripts.js,8\e\8e28a44cf348c4821ee49ae3286882da2a9d231d
 :
 
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
-6
-app.py,1\3\13cce7fd076299c81b4986166f3d822791c9490e
 =
 register.html,1\d\1db6aff286d11412de8d4cdf946844a2dcc13e1b
 9
