@@ -60,7 +60,7 @@ const AddEmployee = () => {
     return (
         <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-                <label className="block">Employee ID:</label>
+                <label className="block">社員番号:</label>
                 <input
                     type="text"
                     value={employeeId}
@@ -70,7 +70,7 @@ const AddEmployee = () => {
             </div>
 
             <div>
-                <label className="block">Name:</label>
+                <label className="block">名前:</label>
                 <input
                     type="text"
                     value={name}
@@ -111,7 +111,7 @@ const AddEmployee = () => {
                     type="submit"
                     className="bg-green-500 text-white px-4 py-2 rounded ml-4 hover:bg-green-700"
                 >
-                    Add Employee
+                    社員登録
                 </button>
             </div>
         </form>

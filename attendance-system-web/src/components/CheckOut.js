@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 
 const CheckOut = () => {
@@ -20,7 +20,7 @@ const CheckOut = () => {
 
     const capturePhoto = async () => {
         try {
-            const mediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
+            const mediaStream = await navigator.mediaDevices.getUserMedia({video: true});
             const video = document.createElement('video');
             video.srcObject = mediaStream;
             video.onloadedmetadata = () => {
@@ -45,7 +45,7 @@ const CheckOut = () => {
         for (let i = 0; i < byteString.length; i++) {
             uint8Array[i] = byteString.charCodeAt(i);
         }
-        return new Blob([uint8Array], { type: mimeString });
+        return new Blob([uint8Array], {type: mimeString});
     };
 
     return (

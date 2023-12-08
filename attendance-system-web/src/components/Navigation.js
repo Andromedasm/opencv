@@ -13,22 +13,22 @@ const Navigation = () => {
                     <ul>
                         <li className="py-2">
                             <Link className="text-blue-500 hover:text-blue-700" to="/add-employee">
-                                添加员工
+                                社員登録
                             </Link>
                         </li>
                         <li className="py-2">
                             <Link className="text-blue-500 hover:text-blue-700" to="/employee-list">
-                                员工列表
+                                社員リスト
                             </Link>
                         </li>
                         <li className="py-2">
                             <Link className="text-blue-500 hover:text-blue-700" to="/check-in">
-                                签到
+                                チェックイン
                             </Link>
                         </li>
                         <li className="py-2">
                             <Link className="text-blue-500 hover:text-blue-700" to="/check-out">
-                                签退
+                                チェックアウト
                             </Link>
                         </li>
                     </ul>

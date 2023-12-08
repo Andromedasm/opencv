@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import UpdateEmployeeModal from './UpdateEmployeeModal';
 
@@ -24,7 +24,7 @@ const EmployeeList = () => {
         try {
             await axios.put(`/api/employees/${employeeId}`, updatedData);
             setEmployees(
-                employees.map((employee) => (employee.id === employeeId ? { ...employee, ...updatedData } : employee))
+                employees.map((employee) => (employee.id === employeeId ? {...employee, ...updatedData} : employee))
             );
             setShowUpdateModal(false);
             alert('Employee updated successfully');
@@ -52,7 +52,7 @@ const EmployeeList = () => {
                             }}
                             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                         >
-                            Update
+                            更新
                         </button>
                         <button
                             onClick={() => handleCapturePhoto(employee.id)}
